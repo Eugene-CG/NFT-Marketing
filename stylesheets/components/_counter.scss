@@ -1,0 +1,13 @@
+.counter {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  &__num {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 78px;
+
+    color: #f5fbf2;
+  }
+}

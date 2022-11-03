@@ -1,0 +1,21 @@
+.title {
+}
+.title__text {
+  max-width: 668px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 130px;
+  /* or 153% */
+
+  color: #f5fbf2;
+}
+.text {
+}
+.title__btns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 564px;
+}

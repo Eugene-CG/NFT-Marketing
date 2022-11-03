@@ -1,0 +1,21 @@
+.btn {
+  width: 45.5%;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffce4e;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  color: #fff;
+  background: rgba($color: #ffce4e, $alpha: 0.1);
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    border-radius: 15px;
+    color: #000;
+    background: rgba($color: #ffce4e, $alpha: 1);
+  }
+}
